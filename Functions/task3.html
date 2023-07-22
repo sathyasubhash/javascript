@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            task3
+        </title>
+    </head>
+    <body>
+        <script>
+            var marks=[98,90,97,95,98];
+            var obj={
+                "telugu":98,
+                "maths":90,
+                "hindi":97,
+                "science":95,
+                "social":98,
+                totalmarks:function(){ 
+                    return this.telugu+this.maths+this.hindi+this.science+this.social;
+                }
+            }
+                var sum=obj.totalmarks()
+                console.log( "totalmarks:",sum);
+                 
+            var avg=obj.totalmarks()/5
+            console.log("avg:", avg)
+            
+
+        </script>
+    </body>
+</html>

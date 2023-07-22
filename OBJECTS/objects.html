@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>objects</title>
+    </head>
+    <body>
+        <script>
+            var marks=[98,99,100,97,96,90];
+            var obj={
+                "Telugu":98,
+                "English":99,
+                "Hindi":100,
+                "Maths":97,
+                "science":96,
+                "social":90,
+                totalmarks:function()
+                    {
+                 return this.Hindi+this.English+this.Maths+this.science+this.social+this.Telugu;
+                    }
+                
+            }
+            
+         console.log(obj);
+        console.log("maths marks:",obj["Maths"]);
+           console.log("hindi marks:",obj["Hindi"]);
+           var sum = obj.totalmarks()
+           console.log( "total marks:",sum);
+            
+    
+        
+        </script>
+    </body>
+</html>
